@@ -10,5 +10,5 @@ package core;
  *
  */
 public class JCopy {
-
+   
 }
