@@ -26,6 +26,7 @@ public class CreateFileLock {
 			}
 			
 			lock.release();
+			//Test
 			
 			channel.close();
 		} catch (Exception e) {
