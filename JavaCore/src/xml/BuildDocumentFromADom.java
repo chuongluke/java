@@ -4,7 +4,7 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
 import org.w3c.dom.Document;
-import org.jdom.input.DOMBuilder;
+//import org.jdom.input.DOMBuilder;
 
 /**
  * Build document from a dom
@@ -22,9 +22,9 @@ public class BuildDocumentFromADom {
 			DocumentBuilder domBuilder = factory.newDocumentBuilder();
 			Document w3cDocument = domBuilder.parse("test.xml");
 			
-			DOMBuilder jdomBuilder = new DOMBuilder();
+			/*DOMBuilder jdomBuilder = new DOMBuilder();
 			org.jdom.Document jdomDocument = jdomBuilder.build(w3cDocument);
-			System.out.println(jdomDocument);
+			System.out.println(jdomDocument);*/
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
